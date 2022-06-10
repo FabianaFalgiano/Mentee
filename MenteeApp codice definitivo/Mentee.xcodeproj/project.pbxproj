@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96142AA5274CEAFC008D7725 /* MenteeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AA4274CEAFC008D7725 /* MenteeAppApp.swift */; };
+		96142AA7274CEAFC008D7725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AA6274CEAFC008D7725 /* ContentView.swift */; };
+		96142AA9274CEAFD008D7725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96142AA8274CEAFD008D7725 /* Assets.xcassets */; };
+		96142AAC274CEAFD008D7725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96142AAB274CEAFD008D7725 /* Preview Assets.xcassets */; };
+		96142AAE274CEAFD008D7725 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AAD274CEAFD008D7725 /* Persistence.swift */; };
+		96142AB1274CEAFD008D7725 /* MenteeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96142AAF274CEAFD008D7725 /* MenteeApp.xcdatamodeld */; };
+		96142AB8274CEFC8008D7725 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AB7274CEFC8008D7725 /* SecondView.swift */; };
+		96142ABC274CF037008D7725 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142ABB274CF037008D7725 /* Work.swift */; };
+		96142ABE274CF069008D7725 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142ABD274CF069008D7725 /* SegmentedControl.swift */; };
+		96142AC2274CF09C008D7725 /* ModifyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AC1274CF09C008D7725 /* ModifyTask.swift */; };
+		96142AC6274CF15E008D7725 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AC5274CF15E008D7725 /* TabBar.swift */; };
+		96142ACA274CF9D9008D7725 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142AC9274CF9D9008D7725 /* TimerView.swift */; };
+		96142ACC274CFA04008D7725 /* BreakTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142ACB274CFA04008D7725 /* BreakTime.swift */; };
+		96142ACE274CFA1A008D7725 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142ACD274CFA1A008D7725 /* TimerManager.swift */; };
+		96142AD0274CFA2F008D7725 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96142ACF274CFA2F008D7725 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96142AA1274CEAFC008D7725 /* Mentee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mentee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96142AA4274CEAFC008D7725 /* MenteeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeAppApp.swift; sourceTree = "<group>"; };
+		96142AA6274CEAFC008D7725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96142AA8274CEAFD008D7725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96142AAB274CEAFD008D7725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96142AAD274CEAFD008D7725 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		96142AB0274CEAFD008D7725 /* MenteeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MenteeApp.xcdatamodel; sourceTree = "<group>"; };
+		96142AB7274CEFC8008D7725 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		96142ABB274CF037008D7725 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		96142ABD274CF069008D7725 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		96142AC1274CF09C008D7725 /* ModifyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyTask.swift; sourceTree = "<group>"; };
+		96142AC5274CF15E008D7725 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		96142AC9274CF9D9008D7725 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		96142ACB274CFA04008D7725 /* BreakTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakTime.swift; sourceTree = "<group>"; };
+		96142ACD274CFA1A008D7725 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		96142ACF274CFA2F008D7725 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96142A9E274CEAFC008D7725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96142A98274CEAFC008D7725 = {
+			isa = PBXGroup;
+			children = (
+				96142AA3274CEAFC008D7725 /* MenteeApp */,
+				96142AA2274CEAFC008D7725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96142AA2274CEAFC008D7725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96142AA1274CEAFC008D7725 /* Mentee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96142AA3274CEAFC008D7725 /* MenteeApp */ = {
+			isa = PBXGroup;
+			children = (
+				96142AA4274CEAFC008D7725 /* MenteeAppApp.swift */,
+				96142AC5274CF15E008D7725 /* TabBar.swift */,
+				96142AA6274CEAFC008D7725 /* ContentView.swift */,
+				96142AAD274CEAFD008D7725 /* Persistence.swift */,
+				96142AB7274CEFC8008D7725 /* SecondView.swift */,
+				96142AC9274CF9D9008D7725 /* TimerView.swift */,
+				96142ACB274CFA04008D7725 /* BreakTime.swift */,
+				96142ACD274CFA1A008D7725 /* TimerManager.swift */,
+				96142ACF274CFA2F008D7725 /* Helper.swift */,
+				96142ABB274CF037008D7725 /* Work.swift */,
+				96142ABD274CF069008D7725 /* SegmentedControl.swift */,
+				96142AC1274CF09C008D7725 /* ModifyTask.swift */,
+				96142AAF274CEAFD008D7725 /* MenteeApp.xcdatamodeld */,
+				96142AA8274CEAFD008D7725 /* Assets.xcassets */,
+				96142AAA274CEAFD008D7725 /* Preview Content */,
+			);
+			path = MenteeApp;
+			sourceTree = "<group>";
+		};
+		96142AAA274CEAFD008D7725 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				96142AAB274CEAFD008D7725 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96142AA0274CEAFC008D7725 /* MenteeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96142AB4274CEAFD008D7725 /* Build configuration list for PBXNativeTarget "MenteeApp" */;
+			buildPhases = (
+				96142A9D274CEAFC008D7725 /* Sources */,
+				96142A9E274CEAFC008D7725 /* Frameworks */,
+				96142A9F274CEAFC008D7725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenteeApp;
+			productName = MenteeApp;
+			productReference = 96142AA1274CEAFC008D7725 /* Mentee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96142A99274CEAFC008D7725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					96142AA0274CEAFC008D7725 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 96142A9C274CEAFC008D7725 /* Build configuration list for PBXProject "Mentee" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96142A98274CEAFC008D7725;
+			productRefGroup = 96142AA2274CEAFC008D7725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96142AA0274CEAFC008D7725 /* MenteeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96142A9F274CEAFC008D7725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96142AAC274CEAFD008D7725 /* Preview Assets.xcassets in Resources */,
+				96142AA9274CEAFD008D7725 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96142A9D274CEAFC008D7725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96142AAE274CEAFD008D7725 /* Persistence.swift in Sources */,
+				96142ABC274CF037008D7725 /* Work.swift in Sources */,
+				96142AD0274CFA2F008D7725 /* Helper.swift in Sources */,
+				96142AB8274CEFC8008D7725 /* SecondView.swift in Sources */,
+				96142AC6274CF15E008D7725 /* TabBar.swift in Sources */,
+				96142AB1274CEAFD008D7725 /* MenteeApp.xcdatamodeld in Sources */,
+				96142ACE274CFA1A008D7725 /* TimerManager.swift in Sources */,
+				96142ACC274CFA04008D7725 /* BreakTime.swift in Sources */,
+				96142AC2274CF09C008D7725 /* ModifyTask.swift in Sources */,
+				96142ACA274CF9D9008D7725 /* TimerView.swift in Sources */,
+				96142AA7274CEAFC008D7725 /* ContentView.swift in Sources */,
+				96142AA5274CEAFC008D7725 /* MenteeAppApp.swift in Sources */,
+				96142ABE274CF069008D7725 /* SegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96142AB2274CEAFD008D7725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96142AB3274CEAFD008D7725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96142AB5274CEAFD008D7725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MenteeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 595Y8DW3P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Antonio.Mentee;
+				PRODUCT_NAME = Mentee;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		96142AB6274CEAFD008D7725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MenteeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 595Y8DW3P5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Antonio.Mentee;
+				PRODUCT_NAME = Mentee;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96142A9C274CEAFC008D7725 /* Build configuration list for PBXProject "Mentee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96142AB2274CEAFD008D7725 /* Debug */,
+				96142AB3274CEAFD008D7725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96142AB4274CEAFD008D7725 /* Build configuration list for PBXNativeTarget "MenteeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96142AB5274CEAFD008D7725 /* Debug */,
+				96142AB6274CEAFD008D7725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96142AAF274CEAFD008D7725 /* MenteeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96142AB0274CEAFD008D7725 /* MenteeApp.xcdatamodel */,
+			);
+			currentVersion = 96142AB0274CEAFD008D7725 /* MenteeApp.xcdatamodel */;
+			path = MenteeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96142A99274CEAFC008D7725 /* Project object */;
+}
